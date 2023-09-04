@@ -116,7 +116,7 @@ main
     border-style: groove;
 }
 
-@media (max-width: 400px)
+@media (max-width: 800px)
 {
     .main-container
     {
