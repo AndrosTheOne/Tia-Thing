@@ -1,0 +1,148 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+
+    overflow-x: hidden;
+
+    /*background-image: url('../img/texture-bottom.jpg');
+
+    background-position: center;
+
+    background-size: cover;
+
+    background-attachment: fixed;*/
+
+    /*background-color: plum;*/
+}
+
+.back-button
+{
+    position: fixed;
+
+    margin-top: 5px;
+}
+
+.back-button a
+{
+    text-decoration: none;
+    color: black;
+
+    border-style: groove;
+
+    padding: 2px;
+
+    color: white;
+
+    background-color: plum;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: start;
+}
+
+.item-container
+{
+    display: flex;
+    flex-direction: column;
+
+    /*width: 1000px;*/
+    align-items: center;
+    justify-content: space-between;
+
+    width: 500px;
+    height: 650px;
+
+    margin-top: 40px;
+
+    border-style: groove;
+
+    background-color: plum;
+    color: white;
+}
+
+.title-container
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 50px;
+
+    align-items: center; 
+    justify-content: center; 
+
+    border-style: groove;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /*background-color: blue;*/
+}
+
+.item-container div img
+{
+    width: 300px;
+
+    border-style: groove;
+}
+
+.description-container
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+
+    align-items: center;
+    /*justify-content: center;*/
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    border-style: groove;
+
+    /*background-color: blue;*/
+}
+
+.description-container a
+{
+
+}
+
+@media (max-width: 360px)
+{
+    .item-container
+    {
+        width: 320px;
+    }
+
+    .title-container
+    {
+        width: 250px;
+    }
+
+    .item-container div img
+    {
+        width: 250px;
+    }
+
+    .description-container
+    {
+        width: 250px;
+    }
+}
