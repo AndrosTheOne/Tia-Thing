@@ -1,0 +1,47 @@
+@media (max-width: 800px)
+{
+    .main-container
+    {
+        /*background-color: aqua;*/
+    }
+
+    .bottom-container
+    {
+        flex-direction: column-reverse;
+
+        height: 550px;
+        width: 300px;
+        /*background-color: blueviolet;*/
+    }
+
+    .left-container
+    {
+        width: 100%;
+        /*height: 100%;*/
+        
+        align-items: start;
+
+        font-size: 20px;
+
+        margin-top: 20px;
+    }
+
+    .data-container
+    {
+        flex-direction: column;
+
+        align-items: start;
+        justify-content: center;
+    }
+
+    .button-container
+    {
+        grid-template-columns: auto auto auto;   
+    }
+
+    .img-space
+    {
+        height: 100%;
+    }
+
+}

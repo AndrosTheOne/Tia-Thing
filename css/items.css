@@ -1,26 +1,8 @@
-body
+main
 {
-    display: flex;
-    flex-direction: column;
+    justify-content: start;
 
-    margin: 0;
-    padding: 0;
-
-    box-sizing: border-box;
-
-    -webkit-font-smoothing: antialiased;
-
-    overflow-x: hidden;
-
-    /*background-image: url('../img/texture-bottom.jpg');
-
-    background-position: center;
-
-    background-size: cover;
-
-    background-attachment: fixed;*/
-
-    /*background-color: plum;*/
+    background-color: white;
 }
 
 .back-button
@@ -41,19 +23,7 @@ body
 
     color: white;
 
-    background-color: plum;
-}
-
-main
-{
-    display: flex;
-    flex-direction: column;
-
-    width: 100vw;
-    height: 100vh;
-
-    align-items: center;
-    justify-content: start;
+    background-color: black;
 }
 
 .item-container
@@ -63,10 +33,10 @@ main
 
     /*width: 1000px;*/
     align-items: center;
-    justify-content: space-between;
+    justify-items: space-between;
 
     width: 500px;
-    height: 650px;
+    height: 9000px;
 
     margin-top: 40px;
 
@@ -110,7 +80,7 @@ main
     width: 300px;
 
     align-items: center;
-    /*justify-content: center;*/
+
     margin-top: 20px;
     margin-bottom: 30px;
 
