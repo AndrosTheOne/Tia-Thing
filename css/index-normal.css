@@ -12,7 +12,7 @@
     height: 100%;
 
     color: white;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 .logo-container
@@ -42,7 +42,7 @@
 
     margin-left: 40px;
 
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 
 .left-container
@@ -61,7 +61,7 @@
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
 
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 .data-container
@@ -72,7 +72,7 @@
     align-items: start;
     justify-content: center;
 
-    background-color: green;
+    /*background-color: green;*/
 }
 
 .button-container
@@ -80,7 +80,7 @@
     display: grid;
     grid-template-columns: auto auto;  
     
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .button-container a
