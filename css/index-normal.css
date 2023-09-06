@@ -75,7 +75,7 @@ main
     height: 650px;
     width: 100vw;
 
-    margin-left: 40px;
+    /*margin-left: 40px;*/
 
     /*background-color: blueviolet;*/
 }
@@ -92,6 +92,8 @@ main
     width: 90%;
 
     font-size: 25px;
+
+    margin-left: 40px;
 
     /*margin-left: 10px;*/
     /*margin-right: 10px;*/
