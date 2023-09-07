@@ -1,4 +1,8 @@
-
+/*
+<a href="/html/customs.html">Customs</a>
+                        <a href="/html/minisueters.html">Minisueters</a> 
+                        <a href="/html/dijes.html">Dijes</a>
+                        */
 body
 {
     display: flex;
@@ -133,7 +137,7 @@ main
 {
     width: 100%;
 
-    background-image: url('../img/customs/1.jpg');
+    background-image: url('../img/photo-main.jpg');
 
     background-size: cover;
     background-position: center;
